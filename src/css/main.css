@@ -105,6 +105,20 @@ textarea {
 #left_content {
   width: 593px;
 }
+}
+#right_content {
+  text-align: center;
+  line-height: 400px;
+}
+.float_left {
+  float:left;
+}
+.float_right {
+  float:right;
+}
+.clear {
+  clear: both;
+} 
 
 
 
