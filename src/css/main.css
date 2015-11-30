@@ -133,6 +133,22 @@ textarea {
 #footer {
   background-color: green;
 }
+.callout {
+  width: 310px;
+  padding-left: 10px;
+}
+#callout1 {
+  background-color: gray;
+}
+#callout2 {
+  background-color: orange;
+}
+#callout3 {
+  background-color: cyan;
+}
+ul,li {
+   margin: 0px;
+}
 
 
 
