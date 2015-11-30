@@ -97,6 +97,14 @@ textarea {
   height: 33px;
   margin-bottom: 10px;
 }
+#content {
+  background-image: url(https://newevolutiondesigns.com/images/freebies/winter-wallpaper-12.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+}
+#left_content {
+  width: 593px;
+}
 
 
 
