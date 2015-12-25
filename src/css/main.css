@@ -87,21 +87,99 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#wrapper {
-  width: 960px;
+body {
+  background-color: #f4f3f4;
+}
+
+header { 
+  background-color: white; 
+  height: 150px;
+  position: fixed;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  top: 0;
+  left: 0;
+  z-index:1000; 
+
 }
-#logo {
-  width: 156px;
-  height: 33px;
-  margin-bottom: 10px;
+#nav{ 
+  width: 960px;
+  margin: 0 auto; 
+
+
+}
+
+#menu a {
+  color: #000;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'courier new';
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+#wrapper {
+  width: 960px;
+  background-color:white;
+  margin: 0 auto; 
+  padding-top: 150px;
+
 }
 #content {
-  background-image: url(https://newevolutiondesigns.com/images/freebies/winter-wallpaper-12.jpg);
-  height: 400px;
+  background-image: url(../img/side.png);
+  height: 680px;
   background-repeat: no-repeat;
+   z-index: 0;
 }
+#content ul li {
+  list-style-type: none;
+  padding: 0px 0px 5px 0px;
+}
+#img1{
+  background-repeat:no-repeat;
+}
+.outfit {
+  width: 100%;
+}
+.outfit h1 {
+
+  font-family: "BPtypewrite";
+  text-align: center;
+}
+.outfit ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  font-family: "BPtypewrite";
+  text-align: center;
+}
+.outfit ul li p {
+  font-size: 15px;
+  font-family: arial;
+  text-align: center;
+}
+.white {
+
+  background-color: white;
+}
+.grey {
+
+  background-color: #f4f3f4;
+}
+.shop a img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#blog img{
+  padding: 25px;
+}
+
+
 #left_content {
   width: 593px;
 }
@@ -110,7 +188,7 @@ textarea {
   text-align: center;
   line-height: 400px;
 }
-.float_left {
+.float_left { 
   float:left;
 }
 .float_right {
@@ -118,34 +196,78 @@ textarea {
 }
 .clear {
   clear: both;
-} 
-#menu li {
-  display: inline;
 }
 
-#menu {
-  background-color: red;
-  font-size: 20px;
-}
 #content {
-  background-color: blue;
+  background-color: white;
+
 }
+
+#contact ,form, div h2{ 
+
+  background-color: #f4f3f4;
+  font-size: 25px;
+  font-family: "BPtypewrite";
+  margin-right: 35px; 
+
+}
+#contact ul li {
+
+  display:inline;
+  height: 65px;
+  width: 65px;
+  position: relative; 
+
+}
+form {
+
+  background-color: #f4f3f4;
+   display: block;
+   padding-left: 10px;
+   position: relative;
+   z-index:1;
+   float: left;
+   padding-bottom: 10px;
+}
+form input{ 
+  width: 430px;
+  height: 60px;
+}
+textarea {
+  width: 430px;
+  height: 180px;
+}
+#cont {
+   overflow:hidden; 
+   background-color: #f4f3f4;
+
+}
+#con{
+  padding-left: 25px;
+  float:right;
+  margin-bottom: 30px;
+  position: relative;
+  z-index:1; 
+
+
+}
+
 #footer {
-  background-color: green;
+background-color: white;
+min-height: 20px;
+overflow: hidden;
+
+
 }
-.callout {
-  width: 310px;
-  padding-left: 10px;
+#footer li {
+  display: inline;
+  text-decoration:none;
+  font-family: "courier new";
+  font-size: 12px;
+  font-weight: bold;
+
 }
-#callout1 {
-  background-color: gray;
-}
-#callout2 {
-  background-color: orange;
-}
-#callout3 {
-  background-color: cyan;
-}
+
 ul, li {
    margin: 0px;
 }
@@ -276,7 +398,7 @@ ul, li {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
@@ -329,6 +451,11 @@ ul, li {
     }
 
     h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
     h3 {
         page-break-after: avoid;
     }
